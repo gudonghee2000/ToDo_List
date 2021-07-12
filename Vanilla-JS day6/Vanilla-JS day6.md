@@ -20,15 +20,15 @@
 
 ![Vanilla-JS%20day6%202808b0de44ae4ab89916343c6d6031c0/1%201.png](Vanilla-JS%20day6%202808b0de44ae4ab89916343c6d6031c0/1%201.png)
 
-사진의 12번째 줄과 같이 시계를 표기할<h2 id="clock"> 태그를 HTML에 생성한다.
+사진의 12번째 줄과 같이 시계를 표기할 h2 id="clock" 태그를 HTML에 생성한다.
 
 ![Vanilla-JS%20day6%202808b0de44ae4ab89916343c6d6031c0/1%202.png](Vanilla-JS%20day6%202808b0de44ae4ab89916343c6d6031c0/1%202.png)
 
-그 후에 1번째 줄과 같이 Javascript에 <h2> 태그를 가져온다.
+그 후에 1번째 줄과 같이 Javascript에 h2 태그를 가져온다.
 
 3번째 줄처럼 getClock 함수를 생성한뒤 시, 분, 초를 각각 hours, minutes, seconds 변수에 가져온 후
 
-<h2>태그의 innerText에 넣어준다. (8번 라인) 
+h2태그의 innerText에 넣어준다. (8번 라인) 
 
 마지막으로 12번 라인 처럼 setInterval 함수를 실행하여 1000ns마다 getClock함수를 실행시켜 실시간으로 시간을 알려주는 시계를 만들 수 있다.
 
@@ -79,9 +79,9 @@ object를 통해 접근성이 높아지기 때문에 array가 아닌 object로 �
 
 이미지 배열에서 랜덤하게 하나의 이미지를 가져온다. (3번 라인)
 
-HTML에 <img> 태그를 생성한다. (5번 라인)
+HTML에 img 태그를 생성한다. (5번 라인)
 
-- **배경이미지 삽입단계는 HTML에 태그를 생성하지 않고 Javascript에서 생성하려고하기 때문에 <img> 태그를 Javascript에서 생성하였다!**
+- **배경이미지 삽입단계는 HTML에 태그를 생성하지 않고 Javascript에서 생성하려고하기 때문에 img 태그를 Javascript에서 생성하였다!**
 
 생성한 img 태그의 src 속성을 이미지가 있는 상대경로에 연결해준다. (7번 라인)
 
